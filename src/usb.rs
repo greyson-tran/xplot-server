@@ -1,5 +1,4 @@
 use serialport::SerialPort;
-use std::io::{stdin, stdout};
 
 pub struct USB {
     port: Box<dyn SerialPort>,
